@@ -1,3 +1,8 @@
+
+body {
+    margin: 0;
+}
+
 #logo {
     width: 120px;
     margin-left: 30px;
@@ -10,35 +15,35 @@
     margin-right: 50px;
     margin-bottom: 0px;
 }
-#image {
-    max-width: 100%;
-    max-height: 100%;
-    margin-top: 0px;
-    opacity: 0.5;
-    position: relative;
-}
+
+
 .main_image {
-    position: absolute;
-    margin-top: 40px;
+    background-image: url("images/reichstag.jpg");
+    position: relative;
+    top: 40px;
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+    background-position: left center;
 
 }
 
 #overlay {
-    max-width: 100%;
-    max-height: 100%;
-    margin-top: 0px;
-    opacity: .9;
-    background-color: black;
     position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    opacity: .4;
+    background-color: black;
 }
 
-h1 {
-    position: absolute;
+#main_title {
+    position: relative;
     text-align: center;
-    top: 20%;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    margin: 0 auto;
+    top: 370px;
     color: white;
 }
 .upper {
@@ -47,17 +52,97 @@ h1 {
 }
 .middle {
     margin-top: 5px;
+    position: relative;
 }
 
 .button {
-    border-style: solid 2px red;
-    background-color: yellow;
+    top: 360px;
+    left: 640px;
+    position: relative;
+    background-color: #FFCC33;
     border-radius: 30px 30px 30px 30px;
     color: white;
-    height: 40px;
+    height: 30px;
     width: 200px;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    margin: 0 auto;
+    border: 2px solid #D2691E;
+}
+#button_text {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    top: 0px;
+    color: #D2691E;
+}
+
+.light_gray {
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    background-color: #bdbdbd;
+    display: inline-block;
+}
+
+.dark_gray {
+    position: relative;
+    top: 200px;
+    width: 100%;
+    height: 30px;
+    background-color: #696969;
+}
+
+
+.cat {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 100px;
+    margin-left: 50px;
+}
+
+.world {
+    position: relative;
+    float: right;
+    width: 50%;
+    height: 100px;
+    bottom: 100px;
+
+}
+
+.swim {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 100px;
+    bottom: 100px;
+    margin-left: 50px;
+}
+
+.columns {
+    position: relative;
+    float: right;
+    width: 50%;
+    height: 100px;
+    bottom: 200px;
+}
+
+
+.the_text {
+    float: right;
+    position: relative;
+    margin-right: 250px;
+    font-size: 16px;
+    bottom: 20px;
+    left: 0px;
+}
+
+.the_image {
+    position: relative;
+    top: 30px;
+    left: 100px;
+    height: 35px;
+    width: 35px;
 }
