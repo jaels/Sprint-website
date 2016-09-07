@@ -8,20 +8,21 @@ body {
     width: 120px;
     margin-left: 30px;
     float: left;
+    bottom: 10px;
 }
-#menue {
+#menu-logo {
     height: 30px;
     width: 30px;
     float: right;
     margin-right: 50px;
-    margin-bottom: 0px;
+    top: 20px;
 }
 
 
 .main_image {
     background-image: url("images/reichstag.jpg");
     position: relative;
-    top: 40px;
+    top: 0px;
     height: 800px;
     width: 1450px;
     background-size: cover;
@@ -48,7 +49,9 @@ body {
     color: white;
 }
 .upper {
-    margin-bottom: 10px;
+    width: 1450px;
+    height: 50px;
+    background-color: #bdbdbd;
 
 }
 .middle {
@@ -197,4 +200,47 @@ body {
     top: 5px;
     color: white;
     font-size: 13px;
+}
+
+
+.menu-non-display {
+position: absolute;
+height: 850px;
+width: 300px;
+background-color: white;
+bottom: 250px;
+right: 0%;
+display: none;
+
+}
+
+.menu-on-display {
+    display: block;
+}
+
+.menu-text {
+    position: relative;
+    margin-top: 100px;
+}
+
+li {
+    font-size: 20px;
+    color: blue;
+    margin:0 0 20px 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#logout {
+    font-size: 15px;
+    color: blue;
+    margin-top: 40px;
+}
+
+#x {
+    float: right;
+    font-size: 25px;
+    margin-right: 20px;
 }
